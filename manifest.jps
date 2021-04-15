@@ -165,4 +165,4 @@ actions:
       jelastic.dev.scripting.DeleteScript('${env.envName}-${targetNodes.nodeGroup}-${globals.scriptSufix}');
       return {result:0}
 
-success: /text/success.md
+#success: /text/success.md
